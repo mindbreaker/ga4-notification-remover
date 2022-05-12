@@ -1,0 +1,15 @@
+{
+  "name": "GA4 Notification Remover",
+ "description" : "Removes the info bar in Universal Analytics, that you should upgrade to GA4",
+  "version": "1.0",
+  "manifest_version": 3,
+"icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" },
+   "content_scripts": [
+   {
+     "matches": ["https://*.analytics.google.com/*"],
+     "css": ["my-styles.css"]
+   }
+ ]
+}

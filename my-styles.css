@@ -1,3 +1,7 @@
 ga-announcements {
-display:none;
-}
+    display: none;
+  }
+  
+  .cdk-overlay-container {
+    display: none;
+  }
